@@ -6,17 +6,17 @@
 Motion-based game in light of the famous classic game [Red Light, Green Light](https://en.wikipedia.org/wiki/Statues_(game))
 **Goal:** Start far from the camera reaching for the big red button just next to the camera bot without getting noticed by it.
 
-![diagram](diagram.png)
+![diagram](docs/diagram.png)
 
 ## Demo
 
-![demo](demo.gif)
+![demo](docs/demo.gif)
 
 [https://vimeo.com/247120163](https://vimeo.com/247120163)
 
 ## Setup
 
-![equiments](equi.jpg)
+![equiments](docs/equi.jpg)
 
  - Raspberry Pi x 1 	
  - Servo Motor x 2
@@ -43,11 +43,11 @@ Define a triggering region at the center of the captured frame,
 
 ## Program Flow
 
-![image alt text](flow.png)
+![image alt text](docs/flow.png)
 
 ## Circuit Design
 
-![image alt text](layout.png)
+![image alt text](docs/layout.png)
 Camera need to attach to raspberry pi via CSI too
 
 ## References
@@ -58,5 +58,5 @@ Control Servo motor using Raspberry Pi 3 [http://razzpisampler.oreilly.com/ch05.
 
 ## Notes
 
-![shake](shake.gif)  
+![shake](docs/shake.gif)  
 After the servo motors move into position, it may tries to calibrate and cause the camera to shake.  We remove this behaviour by detaching the servos after angle movement.
