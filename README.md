@@ -58,5 +58,5 @@ Control Servo motor using Raspberry Pi 3 [http://razzpisampler.oreilly.com/ch05.
 
 ## Notes
 
-![shake](shake.gif)
+![shake](shake.gif)  
 After the servo motors move into position, it may tries to calibrate and cause the camera to shake.  We remove this behaviour by detaching the servos after angle movement.
