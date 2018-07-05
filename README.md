@@ -3,7 +3,7 @@
 >SM3610 Hardware Hacking Final Project
 >**Contributor:** Michael Chan
 
-Motion-based game in light of the famous classic game [Red Light, Green Light](https://en.wikipedia.org/wiki/Statues_(game))
+Motion-based game in light of the famous classic game [Red Light, Green Light](https://en.wikipedia.org/wiki/Statues_(game))  
 **Goal:** Start far from the camera reaching for the big red button just next to the camera bot without getting noticed by it.
 
 ![diagram](docs/diagram.png)
